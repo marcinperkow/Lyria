@@ -1,11 +1,8 @@
 const { SlashCommandBuilder } = require("discord.js")
 
-new SlashCommandBuilder()
-	.setName("help")
-	.setDescription("List of Commands: /n /help")
-
 module.exports =
 {
+	cooldown: 5,
 	data: new SlashCommandBuilder()
 		.setName("help")
 		.setDescription("List of Commands"),
