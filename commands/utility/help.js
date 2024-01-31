@@ -10,6 +10,6 @@ module.exports =
 
 	async execute(interaction)
 	{
-		await interaction.reply("List of Commands:\n\n/help - Prints this list of commands.\n/characters - Prints list of characters.")
+		await interaction.reply({ content: "List of Commands:\n\n/help - Prints this list of commands.\n/characters - Prints list of characters.", ephemeral: true })
 	},
 }
