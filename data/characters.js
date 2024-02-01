@@ -1,111 +1,96 @@
-const MC =
+module.exports =
 {
-	name: "Gran/Djeeta",
-	element: "fire",
+	characters:
+	{
+		mc:
+		{
+			name: "Gran/Djeeta",
+			element: "fire",
+		},
+		katalina:
+		{
+			name: "Katalina",
+			element: "fire",
+		},
+		rackam:
+		{
+			name: "Rackam",
+			element: "fire",
+		},
+		io:
+		{
+			name: "Io",
+			element: "fire",
+		},
+		eugen:
+		{
+			name: "Eugen",
+			element: "fire",
+		},
+		rosetta:
+		{
+			name: "Rosetta",
+			element: "fire",
+		},
+		lancelot:
+		{
+			name: "Lancelot",
+			element: "fire",
+		},
+		vane:
+		{
+			name: "Vane",
+			element: "fire",
+		},
+		percival:
+		{
+			name: "Percival",
+			element: "fire",
+		},
+		siegfried:
+		{
+			name: "Siegfried",
+			element: "fire",
+		},
+		charlotta:
+		{
+			name: "Charlotta",
+			element: "fire",
+		},
+		yodarha:
+		{
+			name: "Yodarha",
+			element: "fire",
+		},
+		narmaya:
+		{
+			name: "Narmaya",
+			element: "fire",
+		},
+		zeta:
+		{
+			name: "Zeta",
+			element: "fire",
+		},
+		vaseraga:
+		{
+			name: "Vaseraga",
+			element: "fire",
+		},
+		ferry:
+		{
+			name: "Ferry",
+			element: "fire",
+		},
+		ghandagoza:
+		{
+			name: "Ghandagoza",
+			element: "fire",
+		},
+		cagliostro:
+		{
+			name: "Cagliostro",
+			element: "fire",
+		},
+	},
 }
-const Katalina =
-{
-	name: "Katalina",
-	element: "fire",
-}
-const Rackam =
-{
-	name: "Rackam",
-	element: "fire",
-}
-const Io =
-{
-	name: "Io",
-	element: "fire",
-}
-const Eugen =
-{
-	name: "Eugen",
-	element: "fire",
-}
-const Rosetta =
-{
-	name: "Rosetta",
-	element: "fire",
-}
-const Lancelot =
-{
-	name: "Lancelot",
-	element: "fire",
-}
-const Vane =
-{
-	name: "Vane",
-	element: "fire",
-}
-const Percival =
-{
-	name: "Percival",
-	element: "fire",
-}
-const Siegfried =
-{
-	name: "Siegfried",
-	element: "fire",
-}
-const Charlotta =
-{
-	name: "Charlotta",
-	element: "fire",
-}
-const Yodarha =
-{
-	name: "Yodarha",
-	element: "fire",
-}
-const Narmaya =
-{
-	name: "Narmaya",
-	element: "fire",
-}
-const Zeta =
-{
-	name: "Zeta",
-	element: "fire",
-}
-const Vaseraga =
-{
-	name: "Vaseraga",
-	element: "fire",
-}
-const Ferry =
-{
-	name: "Ferry",
-	element: "fire",
-}
-const Ghandagoza =
-{
-	name: "Ghandagoza",
-	element: "fire",
-}
-const Cagliostro =
-{
-	name: "Cagliostro",
-	element: "fire",
-}
-
-const characters = {}
-
-characters["mc"] = MC
-characters["katalina"] = Katalina
-characters["rackam"] = Rackam
-characters["io"] = Io
-characters["eugen"] = Eugen
-characters["rosetta"] = Rosetta
-characters["lancelot"] = Lancelot
-characters["vane"] = Vane
-characters["percival"] = Percival
-characters["siegfried"] = Siegfried
-characters["charlotta"] = Charlotta
-characters["yodarha"] = Yodarha
-characters["narmaya"] = Narmaya
-characters["zeta"] = Zeta
-characters["vaseraga"] = Vaseraga
-characters["ferry"] = Ferry
-characters["ghandagoza"] = Ghandagoza
-characters["cagliostro"] = Cagliostro

@@ -37,7 +37,7 @@ module.exports =
 	async execute(interaction)
 	{
 		const command = interaction.options.getString("name")
-		const response = { ephemeral: true, embeds: characters[command] }
+		const response = { ephemeral: true, content: characters[command].element }
 
 		await interaction.reply(response)
 	},
